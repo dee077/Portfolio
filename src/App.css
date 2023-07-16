@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.logo-heading{
+  /* color: purple; */
+  font-weight: 800;
+  font-style: bold;
+  letter-spacing: 2px;
+}

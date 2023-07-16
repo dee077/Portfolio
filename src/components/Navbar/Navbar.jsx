@@ -11,7 +11,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineContacts
 } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi"
+import { FaRankingStar } from "react-icons/fa";
+import { GiSkills,GiPodiumWinner } from "react-icons/gi"
 import { CgFileDocument } from "react-icons/cg";
 
 
@@ -38,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h1>Portfolio</h1>
+          <h1 className="logo-heading" >Portfolio</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -78,6 +79,19 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+            
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/achivement"
+                onClick={() => updateExpanded(false)}
+              >
+                <GiPodiumWinner
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Achivements
               </Nav.Link>
             </Nav.Item>
 

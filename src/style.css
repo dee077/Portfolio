@@ -620,7 +620,27 @@ html {
   padding-top: 10px !important;
 }
 
-
+  /* --------- */
+  /* Achivement*/
+  /* --------- */
+.bullets{
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+}
+.achivement-icon{
+  color: white;
+}
+.achivement-icon:hover{
+  color: #d3d0d6;
+}
+.profile{
+  cursor: pointer;
+}
+.highlight{
+  margin-left: 8px;
+  margin-right: 8px;
+}
   /* --------- */
   /* Resume */
   /* --------- */

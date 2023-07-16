@@ -72,7 +72,7 @@ const Projects = () => {
                to select desired timeframes for analysis. Overall, this Angular web app offers comprehensive
                cryptocurrency price tracking with user-friendly features and interactive visualizations."
               ghLink="https://github.com/dee077/Crypto-Checker"
-              liveLink="https://crypto-checker777.netlify.app/"
+              liveLink="https://crypto-checker-v2.netlify.app/"
             />
           </Col>
         </Row>
